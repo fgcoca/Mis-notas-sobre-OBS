@@ -39,3 +39,4 @@ Otra configuración básica que vamos a realizar está destinada a que podamos d
 
 </center>
 
+seguir con la configuracion audio a partir minuto 12.40
