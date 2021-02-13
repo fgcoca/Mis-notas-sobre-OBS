@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/instalacion/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/primeros-pasos/pp-aprender/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/apartados/ide-obs/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/apartados/escenas/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/apartados/perfiles/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/apartados/clave/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/apartados/intall-jack.mixer/</loc>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/Miscelanea/about/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/Miscelanea/lic/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/Miscelanea/webgrafia/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fgcoca.github.io/Mis-notas-sobre-OBS/Miscelanea/soft/</loc>
-     <lastmod>2021-02-12</lastmod>
+     <lastmod>2021-02-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
