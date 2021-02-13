@@ -23,3 +23,5 @@
 * [Gifcurry, editor de video de código abierto creado por Haskell](https://github.com/lettier/gifcurry)
 
 * Capturas de video y audio de escritorio realizadas con **Kazam** ([Instrucciones de instalación en Linux](https://ubunlog.com/kazam-graba-tu-escritorio-en-linux/))
+
+* Mesa de mezclas de audio [Jack mixer](https://jackaudio.org/)

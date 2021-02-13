@@ -31,6 +31,7 @@ nav:
     - Escenas: apartados/escenas.md
     - Perfiles: apartados/perfiles.md
     - Obtener clave de retransmisión: apartados/clave.md
+    - Instalar Jack Mixer: apartados/intall-jack.mixer.md
 #  - Autor / Autores: about.md
   - Miscelanea:
     - Autor: Miscelanea/about.md 
