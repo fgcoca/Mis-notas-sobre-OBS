@@ -10,3 +10,5 @@
 * Videotutorial [OBS STUDIO desde CERO ► Transmisiones en VIVO profesionales](https://www.youtube.com/watch?v=K3aM_8ZuiIo)
 
 * Videotutoriales sobre OBS del canal [9decibelios](https://www.youtube.com/user/9decibelios)
+
+* [Wiki Sources Guide de OBS](https://obsproject.com/wiki/Sources-Guide)

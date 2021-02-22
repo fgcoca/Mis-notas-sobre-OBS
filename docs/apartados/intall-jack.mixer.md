@@ -147,3 +147,22 @@ La primera vez que ejecutamos el programa tendrá el aspecto de la imagen 13 dad
 | Programa Jack Mixer |
 
 </center>
+
+En la imagen 12 observamos también que está disponible QjackCtl, que es una herramienta gráfica para controlar Jack. Tiene como funciones básicas:
+
+* Detectar automáticamente el hardware audio
+
+* Permite al usuario elegir subdispositivos para entradas y salidas desde una lista drop-down
+
+* Incluye opciones comunes para el servidor de sonido.
+
+En la imagen 14a podemos ver el aspecto de QjackCtl gestionando Jack y en la 14b un ejemplo de conexiones.
+
+<center>
+
+| Imagen 14a | Imagen 14b |
+|:-:|:-:|
+| ![QjackCtl gestionando Jack](../img/intall-jack/i14a.png) | ![Conexiones QjackCtl](../img/intall-jack/i14b.png) |
+|QjackCtl gestionando Jack | Conexiones QjackCtl |
+
+</center>

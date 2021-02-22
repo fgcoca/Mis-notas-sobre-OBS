@@ -26,6 +26,8 @@ nav:
   - Instalación: instalacion.md
   - Primeros pasos:
     - Aprender por la práctica: primeros-pasos/pp-aprender.md
+    - Configuraciones: primeros-pasos/configuraciones.md
+    - Escenas con contenido multimedia: primeros-pasos/escena-multimedia.md
   - Apartados específicos:
     - El IDE de OBS: apartados/ide-obs.md
     - Escenas: apartados/escenas.md
