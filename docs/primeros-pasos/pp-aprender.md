@@ -58,6 +58,10 @@ Para la explicación voy a utilizar una sala [Jitsi](https://jitsi.org/) en la q
 
 </center>
 
+***
+<span style="color:red; font-size:2em">Importante: </span> Cuando capturamos ventanas en OBS es necesario que estas no estén minimizadas en nuestro escritorio.
+***
+
 El siguiente paso es añadir una nueva escena a la que le incorporamos como fuente "Añadir una ventana (Xcomposite)" que ajustaremos de manera que ocupe la zona de visualización en vista previa de forma adecuada, es decir ajustar los límites para que se vea solamente lo que nos interesa, en este caso la imagen. En el vídeo 1 observamos el proceso.
 
 <center>

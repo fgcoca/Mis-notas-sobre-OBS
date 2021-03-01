@@ -61,5 +61,31 @@ En el video 4 vemos la misma emisión pero esta vez a través de la plataforma T
 
 </center>
 
-## Video presentación evento
-En este caso vamos a ver como hacer una escena que contenga un video que se reproduce en bucle y nos presenta información del organizador del evento.
+## Video presentación
+En este caso vamos a ver como hacer una escena que contenga un video que se reproduce en bucle y nos presenta información del organizador del evento. Para ello voy a utilizar el video de presentación en sus canales de [Club Robótica Granada](https://clubroboticagranada.github.io/). El proceso para transmitir un video que tengo descargado es muy sencillo porque basta con añadir una fuente multimedia y localizar ese video local.
+
+Vamos a aprovechar para ver también como poner un origen de color como fondo de pantalla en la escena, poner algún texto adicional y finalmente ver la transmisión en directo de la escena creada en las dos plataformas que estamos usando.
+
+En el video 5 podemos ver como poner color de fondo, texto y como añadir la fuente multimedia. Al final del video se 
+
+<center>
+
+| Vídeo 5 |
+|:-:|
+| [Escena multimedia con video local](https://youtu.be/0krY1gXpBMQ) |
+
+</center>
+
+De nuevo observamos como se escuchan ruidos de fondo y que aunque se ve claramente que el video tiene un audio incorporado en cuanto se activa la fuente *video con musica*. Previamente se observa que el color de fondo tapa al cuadro del video y aunque se cambie el orden de las fuentes no se consigue visualizar. Esto ocurre a veces y se soluciona en cuanto hacemos una transición o corte a la ventana de programa.
+
+El problema de ausencia de sonido es el mismo que se explicó anteriormente y vamos a ver como se soluciona cuando estamos transmitiendo.
+
+En el video 6 vemos como funciona la escena de video transmitida en directo en Youtube.
+
+<center>
+
+| Vídeo 6 |
+|:-:|
+| [Escena multimedia con video emitiendo en directo](https://youtu.be/2PCJa6hnp70) |
+
+</center>
