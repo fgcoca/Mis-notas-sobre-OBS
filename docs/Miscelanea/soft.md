@@ -25,3 +25,5 @@
 * Capturas de video y audio de escritorio realizadas con **Kazam** ([Instrucciones de instalación en Linux](https://ubunlog.com/kazam-graba-tu-escritorio-en-linux/))
 
 * Mesa de mezclas de audio [Jack mixer](https://jackaudio.org/)
+
+* App y pluggin [DroidCam OBS](https://www.dev47apps.com/obs/)
