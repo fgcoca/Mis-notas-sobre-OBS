@@ -30,7 +30,7 @@ nav:
     - Escenas con contenido multimedia: primeros-pasos/escena-multimedia.md
     - Escena con navegador: primeros-pasos/navega.md
     - Otros aspectos importantes de OBS: primeros-pasos/otros-aspectos.md
-    - El audio en OBS: vueltas-audio.md
+    - El audio en OBS: primeros-pasos/el-audio-en-obs.md
   - Apartados específicos:
     - El IDE de OBS: apartados/ide-obs.md
     - Escenas: apartados/escenas.md

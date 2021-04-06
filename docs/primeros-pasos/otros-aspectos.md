@@ -271,4 +271,4 @@ En esa misma ventana si bajamos encontramos la URL del servidor y la clave de re
 
 * **Twitch**. En [Configuraciones](configuraciones.md) se describe como localizar la clave de retransmisión.
 
-De forma muy similar exite la posibilidad de transmitir en otras plataformas.
+De forma muy similar existe la posibilidad de transmitir en otras plataformas.

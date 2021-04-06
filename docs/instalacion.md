@@ -1,5 +1,5 @@
 # Instalación de OBS
-En la * [wiki del proyecto OBS Studio](https://obsproject.com/wiki/) tenemos la entrada a las [instrucciones de instalación](https://obsproject.com/wiki/Install-Instructions) para todos los sistemas operativos disponibles (Imagen 1). Nosotros vamos a trabajar en Linux bajo Ubuntu 20.04.
+En la [wiki del proyecto OBS Studio](https://obsproject.com/wiki/) tenemos la entrada a las [instrucciones de instalación](https://obsproject.com/wiki/Install-Instructions) para todos los sistemas operativos disponibles (Imagen 1). Nosotros vamos a trabajar en Linux bajo Ubuntu 20.04.
 
 <center>
 

@@ -3,7 +3,7 @@ Resulta conveniente antes de continuar con este apartado y analizar las posibili
 
 ## Introducción
 
-Para ir explicando las funcionalidades de OBS vamos a plantear un proyecto completo de transmisión en directo a través de Youtube que va a disponer de las siguientes partes:
+Para ir explicando las funcionalidades de OBS vamos a plantear tareas para transmisión en directo a través de Youtube o Twitch y/o grabación en las que se pueden incluir, entre otras, las siguientes partes:
 
 * Una pantalla con imagen fija para inicio y final de la transmisión.
 
