@@ -6,6 +6,6 @@ OBS permite la captura de video en tiempo real, componer la escena, codificar, g
 
 <center>
 
-| ![Aspecto general del IDE de OBS](../img/index/i-index.png) |
+![Aspecto general del IDE de OBS](../img/index/i-index.png)
 
 </center>
