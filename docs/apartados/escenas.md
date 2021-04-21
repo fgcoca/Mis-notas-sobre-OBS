@@ -101,11 +101,11 @@ En la imagen 2 podemos observar como se ha añadido la fuente multimedia con el 
 ## Titulador o ticker
 Poner subtitulos a nuestra emisión es posible de forma sencilla creando la escena correspondiente y añadiendo a esta las fuentes adecuadas. Veamos como hacerlo:
 
-1. Creamos la escena de la forma habitual y le ponemos el nombre que queramos.
+1 - Creamos la escena de la forma habitual y le ponemos el nombre que queramos.
    
-2. Lo primero, como siempre, en nuestro flujo de trabajo (recomendado por [9decibelios](https://www.youtube.com/channel/UCpLlrD8_X6wGBX2mfWDjhEw)) es añadir como fuente la cámara, que es nuestra escena principal.
+2 - Lo primero, como siempre, en nuestro flujo de trabajo (recomendado por [9decibelios](https://www.youtube.com/channel/UCpLlrD8_X6wGBX2mfWDjhEw)) es añadir como fuente la cámara, que es nuestra escena principal.
 
-3. Ahora ya estamos preparados para añadir nuestro titulador y para ello añadimos la imagen que vamos a utilizar como base para el mismo. En este caso la imagen está creada con una resolución de 1920x1080 px, a partir de Inkscape y GIMP, con zonas transparentes para poder visualizar lo que nos interesa. Esta resolución es la misma que la del lienzo y de esta forma va a quedar ajustada al mismo. En el caso del titulador bloqueamos las fuentes que tenemos añadidas para que no se puedan mover accidentalmente. En el punto 4 continuamos con el trabajo para poner el subtitulo.
+3 - Ahora ya estamos preparados para añadir nuestro titulador y para ello añadimos la imagen que vamos a utilizar como base para el mismo. En este caso la imagen está creada con una resolución de 1920x1080 px, a partir de Inkscape y GIMP, con zonas transparentes para poder visualizar lo que nos interesa. Esta resolución es la misma que la del lienzo y de esta forma va a quedar ajustada al mismo. En el caso del titulador bloqueamos las fuentes que tenemos añadidas para que no se puedan mover accidentalmente. En el punto 4 continuamos con el trabajo para poner el subtitulo.
 
 En el vídeo 7 vemos como se hace esta parte del proceso.
 
@@ -119,11 +119,11 @@ En el vídeo 7 vemos como se hace esta parte del proceso.
 
 Podemos observar cuando aparecen las fuentes en la escena como quedan perfectamente ajustadas al lienzo escogido debido a que su resolución es la adecuada. También observamos que la zona rectangular con bordes redondeados donde aparecerá el subtitulo es transparente, lo cual hará en algunos casos poco legible el texto. Es mucho mejor ponerle un color sólido de fondo y escoger un color de fuente que tenga buen contraste con este. En este caso vamos a poner fondo negro y letras blancas.
 
-4. Añadimos como fuente un origen de color que va a ser el fondo no transparente del título.
+4 - Añadimos como fuente un origen de color que va a ser el fondo no transparente del título.
 
-5. Ajustamos el fondo al tamaño del sticker con el manejador correspondiente (el central superior) mientras se mantiene pulsada la tecla alt, en el caso de linux. El tamaño debe ser parecido al del titulador (puede ser un poco mas pequeño) pero teniendo en cuenta que debe tapa la zona transparente del mismo.
+5 - Ajustamos el fondo al tamaño del sticker con el manejador correspondiente (el central superior) mientras se mantiene pulsada la tecla alt, en el caso de linux. El tamaño debe ser parecido al del titulador (puede ser un poco mas pequeño) pero teniendo en cuenta que debe tapa la zona transparente del mismo.
 
-6. Podemos observar que esta franja negra queda por encima de la imagen lo que hace que el titulador no sea visible. Debemos moverlo detrás de la imagen, lo que podemos hacer con las flechas o arrastrándolo con el ratón.
+6 - Podemos observar que esta franja negra queda por encima de la imagen lo que hace que el titulador no sea visible. Debemos moverlo detrás de la imagen, lo que podemos hacer con las flechas o arrastrándolo con el ratón.
 
 En el vídeo 8 vemos como llevar a cabo los puntos 4 al 6 anteriores.
 
@@ -135,7 +135,7 @@ En el vídeo 8 vemos como llevar a cabo los puntos 4 al 6 anteriores.
 
 </center>
 
-7. El siguiente paso va a ser colocar una fuente de texto a nuestro título. Para ello procedemos según vemos en el vídeo 9. Damos un nombre a la fuente, ponemos el texto que deseemos, escogemos fuente, reajustamos el tamaño y movemos para que aparezca de forma adecuada. Finalmente añadimos un filtro que va a consistir en que el texto se desplace en lazo por nuestra barra de título. Es importante poner al final del texto dos o tres espacios para que no se unan el principio y el final.
+7 - El siguiente paso va a ser colocar una fuente de texto a nuestro título. Para ello procedemos según vemos en el vídeo 9. Damos un nombre a la fuente, ponemos el texto que deseemos, escogemos fuente, reajustamos el tamaño y movemos para que aparezca de forma adecuada. Finalmente añadimos un filtro que va a consistir en que el texto se desplace en lazo por nuestra barra de título. Es importante poner al final del texto dos o tres espacios para que no se unan el principio y el final.
 
 <center>
 

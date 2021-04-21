@@ -12,3 +12,5 @@
 * Videotutoriales sobre OBS del canal [9decibelios](https://www.youtube.com/user/9decibelios)
 
 * [Wiki Sources Guide de OBS](https://obsproject.com/wiki/Sources-Guide)
+
+* [Wiki obsninja](https://github.com/steveseguin/obsninja/wiki)

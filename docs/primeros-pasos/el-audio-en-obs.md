@@ -112,7 +112,7 @@ Pero tenemos que tener **muy presente** que esta configuración hay que coordina
 
 </center>
 
-Con estas configuraciones tenemos el control de audio de salida y de la entrada de micrófono en OBS y los auriculares estaremos escuchando el sonido reproducido en el ordenador. En el video 1 observamos como se interactua con estos elementos y podemos observar que el audio de micrófono y reproductor se mezclan y que este último no se silencia desde OBS y solamente se puede hacer desde el ordenador, dado que en este se establecen los auriculares como salida.
+Con estas configuraciones tenemos el control de audio de salida y de la entrada de micrófono en OBS y en los auriculares estaremos escuchando el sonido reproducido en el ordenador. En el video 1 observamos como se interactúa con estos elementos y podemos observar que el audio de micrófono y reproductor se mezclan y que este último no se silencia desde OBS y solamente se puede hacer desde el ordenador, dado que en este se establecen los auriculares como salida.
 
 <center>
 
@@ -123,27 +123,94 @@ Con estas configuraciones tenemos el control de audio de salida y de la entrada 
 </center>
 
 ## Separación de canales en grabación
+Vamos a realizar una grabación partiendo de una situación como la que vemos en la imagen 8 para mostrar la separación en pistas de los audios implicados. En la imagen 8 se muestra OBS junto al reproductor y a la configuración de sonido del ordenador.
 
+<center>
 
+| Imagen 8 |
+|:-:|
+| ![Entorno para mostrar las pistas de salida de audio](../img/audio/i8.png) |
+| Entorno para mostrar las pistas de salida de audio |
 
-En el video 1 podemos observar como se van activando los dispositivos en ajustes y como estos quedan reflejados en el mezclador de audio, donde podemos configurar su volumen, silenciarlos, etc.
+</center>
 
+Para mostrar lo dicho vamos a partir de una configuración preestablecida que se sabe que funciona e iré describiendo lo que voy haciendo. Vamos a a tener música en reproducción y tres entradas diferentes de micrófono y la idea es separar estas fuentes de sonido en pistas diferente que permitan un posprocesado efectivo sobre cada audio.
 
+En el video 2 vemos las configuraciones a realizar y el proceso de trabajo.
 
+<center>
 
-00:56:14​ CONFIGURAR AUDIO
-- Configuracion de audio PARTE 1: https://youtu.be/SNnjkfCwp9Q​
-- Configuracion de audio PARTE 2: https://youtu.be/gu3U1qvcXeo​
-00:59:54​ PISTAS DE AUDIO EN OBS
-- Configuracion de audio PARTE 1: https://youtu.be/SNnjkfCwp9Q​
-- Configuracion de audio PARTE 2: https://youtu.be/gu3U1qvcXeo​
-01:02:31​ PROPIEDADES DE AUDIO AVANZADA
-- Configuracion de audio PARTE 1: https://youtu.be/SNnjkfCwp9Q​
-- Configuracion de audio PARTE 2: https://youtu.be/gu3U1qvcXeo​
-01:05:32​ CONECTAR INTERFAZ DE AUDIO EN OBS
-- https://youtu.be/K7Df-R8Lqvs​
-01:10:51​ COMO CONFIGURAR MICROFONO USB EN OBS
-- Video de apoyo: https://youtu.be/BRNxsyg0TZI​
-- Sincronizar audio y video: https://youtu.be/H-sb1b-YlhM​
-01:11:35​ COMO MEJORAR EL AUDIO DEL MICROFONO EN OBS
-- Video de apoyo: https://youtu.be/39sHrTAKYDk
+| Vídeo 2 |
+|:-:|
+| [Trabajo con cuatro canales de audio separados para posproducción](https://youtu.be/1CJsinpp18I) |
+
+</center>
+
+En el video anterior vemos al final que se realiza una grabación con OBS en la que deben existir cuatro canales de audio. Si abrimos el software de edición de audio [Audacity](https://www.audacityteam.org/), que tiene la capacidad de extraer el audio de un vídeo para trabajar con el mismo, e le damos a abrir el archivo con extensión mkv generado veremos una ventana como la de la imagen 9.
+
+<center>
+
+| Imagen 9 |
+|:-:|
+| ![Cuatro pistas de audio listas para importar](../img/audio/i9.png) |
+| Cuatro pistas de audio listas para importar |
+
+</center>
+
+Si seleccionamos las cuatros pistas y hacemos clic en el botón `Aceptar` Audacity procederá a leer las cuatro pistas de audio que nos mostrará por separado, tal y como podemos ver en la imagen 10.
+
+<center>
+
+| Imagen 10 |
+|:-:|
+| ![Cuatro pistas de audio en Audacity](../img/audio/i10.png) |
+| Cuatro pistas de audio en Audacity |
+
+</center>
+
+Si en OBS convertimos el archivo mkv a mp4 podemos seguir un proceso totalmente similar al anterior y desde Audacity editar nuestros audios en posproducción para finalmente volverlos a unir al video por ejemplo con OpenShot Video Editor, donde tendremos que silenciar el audio original del video, poner en una pista diferente a la del video nuestro audio editado y exportar de nuevo el video.
+
+## Eliminación de ruidos
+Es muy posible que al hacer nuestra grabación en OBS tengamos algún tipo de captura de ruido blanco en nuestro micrófono y lo que vamos a hacer en este apartado en ver distintas formas de eliminarlo.
+
+### Filtros
+En OBS es muy simple aplicar filtros, para ello nos dirigimos a la rueda dentada existente en el elemento del mezclador de audio que queremos filtrar, escogemos filtros en el menú que se despliega y en la ventana que se abre con el signo + añadimos los filtros que necesitemos de los que nos salen en el listado. En la animación 2 vemos el proceso de aplicar dos filtros al micrófono de los auriculares.
+
+<center>
+
+| Animación 2 |
+|:-:|
+| ![Aplicación de filtros en OBS](../img/audio/A2.gif) |
+| Aplicación de filtros en OBS |
+
+</center>
+
+### Eliminación de ruidos con Audacity
+Si por cualquier motivo el video que hemos grabado tiene ruido blanco de fondo con Audacity es posible eliminarlo o al menos atenuarlo. Para ello debemos seguir el siguiente procedimiento:
+
+* Seleccionamos un trozo de pista en la que sólo se escuche el ruido de fondo, lo que generalmente ocurrirá al comienzo del video.
+
+* Nos dirigimos a la entrada de menú Efecto y escogemos Reducción de ruido y en la ventana que se nos muestra (imagen 11) seleccionamos el botón Obtener perfil del ruido.
+
+<center>
+
+| Imagen 11 |
+|:-:|
+| ![Obtener perfil de ruido en Audacity](../img/audio/i11.png) |
+| Obtener perfil de ruido en Audacity |
+
+</center>
+
+* Ahora vamos al menú Seleccionar y escogemos Todo, o pulsamos la combinación de teclas Ctrl + A, y vamos de nuevo a Efecto y  Reducción del ruido. Ajustamos los valores de Reducción de ruido y Sensibilidad para eliminar el ruido seleccionado y hacemos clic en el botón Aceptar, y tras unos instantes tendremos nuestro audio con el ruido escogido al principio eliminado del mismo.
+
+* Finalmente vamos a Archivo y escogemos Exportar. Le damos un nombre al archivo y escogemos como tipo de archivo mp3 o cualquiera de los que nos muestra Audacity. Ya podemos usar el audio sin ruido para corregir el problema en nuestro video con ruido de fondo.
+
+En el video 3 se ilustra gráficamente el proceso.
+
+<center>
+
+| Vídeo 3 |
+|:-:|
+| [Eliminación de ruido con Audacity](https://youtu.be/jMuckFDvr7k) |
+
+</center>

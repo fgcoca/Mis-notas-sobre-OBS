@@ -38,7 +38,7 @@ Si marcamos *Archivo local* tendremos que localizar ese archivo en nuestro siste
 
 </center>
 
-La principal ventaja de poner una fuente de navegador frente a una captura de ventana es que no tenemos que tener una pestaña abierta en nuestro navegador para que se vea el contenido. pero esta ventaja no estaría completa si no podemos interactuar con esa página web. Para poder hacerlo basta con hacer clic con botón derecho sobre la fuente y escoger la opción que vemos en la imagen 2. lo que nos mostrará una nueva ventana emergente en la que seleccionamos según la misma imagen. 
+La principal ventaja de poner una fuente de navegador frente a una captura de ventana es que no tenemos que tener una pestaña abierta en nuestro navegador para que se vea el contenido. pero esta ventaja no estaría completa si no podemos interactuar con esa página web. Para poder hacerlo basta con hacer clic con botón derecho sobre la fuente y escoger la opción que vemos en la imagen 2. lo que nos mostrará una nueva ventana emergente en la que seleccionamos según la misma imagen.
 
 <center>
 

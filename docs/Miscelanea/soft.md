@@ -27,3 +27,9 @@
 * Mesa de mezclas de audio [Jack mixer](https://jackaudio.org/)
 
 * App y pluggin [DroidCam OBS](https://www.dev47apps.com/obs/)
+
+* Software de edición de audio [Audacity](https://www.audacityteam.org/)
+
+* Software de edición de video [OpenShot Video Editor](https://www.openshot.org/es/download/)
+
+* [obs.ninja](https://obs.ninja/)

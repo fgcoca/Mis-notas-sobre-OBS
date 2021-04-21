@@ -4,6 +4,8 @@ Una serie de anotaciones sobre mi aprendizaje en el uso de Open Broadcaster Soft
 
 OBS permite la captura de video en tiempo real, componer la escena, codificar, grabar y retransmitir. La transmisión de datos puede realizarse a través del protocolo **Real Time Messaging Protocol (RTMP)**, y puede ser enviado a cualquier destino que tenga soporte RTMP (por ejemplo **Youtube**), incluye muchos presets para sitios de streaming como Twitch y DailyMotion.
 
+En la imagen vemos el aspecto que presenta el programa OBS una vez instalado e iniciado.
+
 <center>
 
 ![Aspecto general del IDE de OBS](./img/index/i-index.png)

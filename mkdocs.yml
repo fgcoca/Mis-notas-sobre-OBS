@@ -31,13 +31,15 @@ nav:
     - Escena con navegador: primeros-pasos/navega.md
     - Otros aspectos importantes de OBS: primeros-pasos/otros-aspectos.md
     - El audio en OBS: primeros-pasos/el-audio-en-obs.md
+    - Un programa completo: primer-programa.md
   - Apartados específicos:
     - El IDE de OBS: apartados/ide-obs.md
     - Escenas: apartados/escenas.md
     - Perfiles: apartados/perfiles.md
     - Obtener clave de retransmisión: apartados/clave.md
     - Instalar Jack Mixer: apartados/intall-jack.mixer.md
-  - Primer programa completo: primer-programa.md
+    - OBS Ninja: apartados/ninja.md
+  - Ejemplo de guión y colección de recursos: guion.md
 #  - Autor / Autores: about.md
   - Miscelanea:
     - Autor: Miscelanea/about.md 
